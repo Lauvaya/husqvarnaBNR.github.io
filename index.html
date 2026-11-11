@@ -503,7 +503,7 @@
             const params = new URLSearchParams(window.location.search);
             const code = params.get('code');
             if (code) {
-              const partCode = code.substring(8, 11);
+              const partCode = code.substring(6, 11);
               document.getElementById('code-display').textContent = code;
               document.getElementById('data-display').textContent = partCode;
             } else {
